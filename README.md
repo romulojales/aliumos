@@ -24,3 +24,6 @@ Alium means other in Latin.
 ## Test
 
 * Qemu primarily
+* One disk, with all the partitions well defined and known.
+
+I don't want to write an OS that will run in any x86_64 computer or disk configuration. Resrincting the target I can focus in the happy path to create an operating system. Later, I can generalize and deal with the corner cases. 
